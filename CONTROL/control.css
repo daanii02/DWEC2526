@@ -1,0 +1,11 @@
+.rosa{
+    background-color: rgb(239, 86, 112);
+    width: 320px;
+    height: 320px;
+    position: absolute;
+    top: 40px;
+    left: 50px;
+    border-radius: 20px;
+    transition: cubic-bezier(0.68, -0.55, 0.27, 1.55) 0.5s all;
+     margin-top: 50px;
+}
