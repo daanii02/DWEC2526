@@ -1,0 +1,51 @@
+body {
+font-family: sans-serif;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+margin: 0;
+background-color: #f0f0f0;
+}
+#juego-container {
+text-align: center;
+}
+#ruleta-container {
+position: relative;
+width: 300px;
+height: 300px;
+margin: 0 auto 20px;
+}
+#ruleta {
+width: 100%;
+height: 100%;
+border-radius: 50%;
+border: 5px solid #333;
+background: conic-gradient(
+from 0deg,
+         #ffde17 0deg 90deg,     /* Amarillo */
+         #29abe2 90deg 180deg,    /* Azul */
+         #8dc63f 180deg 270deg,   /* Verde */
+         #ed1c24 270deg 360deg    /* Rojo */
+        );
+box-sizing: border-box;
+}
+ #aguja {
+position: absolute;
+width: 6px;
+height: 140px;
+background-color: #333;
+top: 10px;
+left: 50%;
+transform-origin: bottom center;
+margin-left: -3px;
+border-radius: 5px 5px 0 0;
+transition: transform 4s cubic-bezier(.24,.99,.63,1);
+}
+#resultado {
+ font-size: 28px;
+font-weight: bold;
+min-height: 40px;
+margin-top: 20px;
+color: #333;
+}

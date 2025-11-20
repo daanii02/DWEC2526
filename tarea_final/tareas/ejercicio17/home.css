@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    background-image: url("casino.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    overflow: hidden;
+}
+/* Estilos generales */
+body{
+    margin: 30px;
+    margin-top: 300px;
+    font-family:'Times New Roman', Times, serif;
+    align-items: center;
+}
+h3{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.57);
+}
+a{
+    text-decoration: none;
+   font-size: 40px;
+   color: rgb(0, 0, 0); 
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

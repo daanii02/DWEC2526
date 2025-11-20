@@ -1,0 +1,22 @@
+body {
+font-family: sans-serif;
+color: antiquewhite;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+margin: 0;
+background-image: url('dados.png');
+background-size: cover;
+background-position: center;
+}
+#controles {
+margin-bottom: 20px;
+}
+ #contenedorPrincipal {
+text-align: center;
+padding: 20px;
+border-radius: 10px;
+background-color: #00000080;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.496);
+}

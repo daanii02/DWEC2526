@@ -1,0 +1,19 @@
+
+button{
+background-color: white;
+}
+*{
+    background-color: rgb(164, 242, 164);
+}
+
+.imagen{
+    width: 800px;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-image: url('foto_ejemplo.jpg');
+
+}
+.foto {
+    transition: opacity 0.5s;
+    opacity: 0%;
+}

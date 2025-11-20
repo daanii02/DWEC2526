@@ -1,0 +1,50 @@
+
+body{
+  margin: 0;
+  background-image: url("acuario.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  overflow: hidden;
+}
+
+#escena{
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+#div1, #div2, #div3, #div4, #div5{
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: all 3.3s ease;
+}
+
+#div1{
+  height: 405px;
+  width: 800px;
+  background-image: url("martillo.png");
+}
+#div2{
+  height: 305px;
+  width: 800px;
+  background-image: url("ballena.png");
+}
+#div3{
+  height: 305px;
+  width: 900px;
+  background-image: url("tiburon.png");
+}
+#div4{
+  height: 305px;
+  width: 400px;
+  background-image: url("pirahna.png");
+}
+#div5{
+  height: 305px;
+  width: 800px;
+  background-image: url("medusa.png");
+}

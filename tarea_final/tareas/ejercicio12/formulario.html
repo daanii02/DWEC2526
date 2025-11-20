@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="formulario_basico.js" defer></script>
+    <link href="formulario_basico.css" rel="stylesheet">
+    <title>Formulario Básico</title>
+</head>
+<body>
+     <h2>Crea tu tarjeta Virtual </h2>
+    <form onsubmit="event.preventDefault(); muestraDatos();">
+     Nombre:<input id="nombre" type="text"><br>
+    Apellidos: <input id="apellidos" type="text"><br>
+    Correo: <input id="correo" type="text"><br>
+    Aficiones: <input id="aficiones" type="text"><br>
+    Elige color de fondo: <input type="color" id="color" value="#ffffff"></label><br>
+       Elige temática:
+            <select id="tematica">
+                <option value="">Selecciona una</option>
+                <option value="tecnologia">Tecnología</option>
+                <option value="deporte">Deporte</option>
+                <option value="carreras">carreras</option>
+                <option value="espacio">Espacio</option>
+                <option value="cine">Cine y series</option>
+            </select>
+        <br>
+        <button type="submit">Enviar</button>
+    </form>
+    <div id="resultado"></div>
+    </body>
+</html>
