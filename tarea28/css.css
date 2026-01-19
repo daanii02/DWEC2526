@@ -1,0 +1,65 @@
+#marcador {
+margin-bottom: 10px;
+text-align: center;
+font-size: 24px;
+font-weight: bold;
+
+} 
+
+#contenedor {
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 1000px;
+    border: 2px solid black;
+    margin-left: 250px;
+    border-radius: 50px;
+    background-image: url('fondo.jpg');
+}
+
+.sprite1{
+    width: 55px;
+    height: 50px;
+    background-image: url('estrella.png');
+    background-position: 0px 0px;
+    background-size: cover;
+    position: absolute;
+
+}
+.sprite2{
+    width: 70px;
+    height: 70px;
+    background-image: url('galaxia.png');
+    background-size: cover;
+    position: absolute;
+}
+.sprite3{
+    width: 55px;
+    height: 50px;
+    background-image: url('estrella.png');
+    background-position: 0px 0px;
+    background-size: cover;
+    position: absolute;
+
+}
+.sprite4{
+    width: 55px;
+    height: 50px;
+    background-image: url('estrella.png');
+    background-position: 0px 0px;
+    background-size: cover;
+    position: absolute;
+
+}
+.sprite5{
+    width: 70px;
+    height: 70px;
+    background-image: url('galaxia.png');
+    background-size: cover;
+    position: absolute;
+}
+#contenedor{
+  position: relative;
+}
+
