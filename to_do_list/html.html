@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>To do list</title>
+  <link rel="stylesheet" href="css.css">
+  <script src="js.js" defer></script>
+</head>
+<body>
+  <div class="formulario">
+    <form>
+      <p>introduce tarea</p>
+      <input type="text" id="tarea_txt">
+
+      <p>introduce descripción</p>
+      <input type="text" id="descripcion_txt">
+
+      <input type="button" id="botonAgregar" value="añadir tarea">
+    </form>
+
+    <button id="botonBorrarTodo" type="button">eliminar todas</button>
+  </div>
+
+  <div class="zona_tareas">
+    <ul id="ListaTareas"></ul>
+  </div>
+</body>
+</html>
