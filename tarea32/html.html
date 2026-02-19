@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Lista de la Compra</title>
+    <link rel="stylesheet" href="css.css">
+    <script src="js.js" defer></script>
+</head>
+<body>
+
+    <div id="menu">
+        <div class="titulo"></div>
+
+        <input type="text" id="texto">
+
+        <div class="botones">
+            <button onclick="añadir()">Añadir al final (Push)</button>
+            <button onclick="quitar()">Quitar del final (Pop)</button>
+            
+            <button onclick="añadirPrincipio()">Añadir al inicio (Unshift)</button>
+            <button onclick="quitarPrincipio()">Quitar del inicio (Shift)</button>
+            
+            <button onclick="ordenar()">Ordenar lista (Sort)</button>
+        </div>
+
+        <div id="imprimir"></div>
+
+    </div>
+
+</body>
+</html>

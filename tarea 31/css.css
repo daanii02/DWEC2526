@@ -1,0 +1,28 @@
+body {
+    background-image: url("mesa.jpg");
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+  
+}
+
+
+
+.boton {
+    background-image: url("boton.png");
+    width: 450px;
+    height: 230px;
+    border: none;
+    cursor: pointer;
+    background-size: cover;
+    background-color: rgba(255, 240, 240, 0);
+    margin-left: 490px;
+    margin-top: 250px;
+}
+.frase{
+    font-family: 'Courier New';
+    font-size: 20px;
+    color: rgb(255, 247, 0);
+    text-align: center;
+    font-weight: bold;
+}

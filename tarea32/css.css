@@ -1,0 +1,85 @@
+body{
+  background-image: url(cocina.png);
+    background-size: cover;
+  text-align: center;
+  font-size: 17px;
+  font-family: Arial, sans-serif;
+}
+
+#menu{
+  background-image: url(papel.png);
+  width: 420px;
+  margin: 80px auto 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+}
+
+#texto{
+  background-image: url();
+  background-color: #fff9ff;
+  border: 0;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+  padding: 10px 15px;
+  margin: 10px 0 15px 0;
+  color: rgb(47, 0, 0);
+  font-size: 18px;
+  border-radius: 6px;
+  width: 75%;
+}
+
+.titulo{
+  background-image: url(lista_de_compra.png);
+background-size:cover; 
+background-repeat: no-repeat;
+ width: 350px; height: 100px; 
+ margin-left: 40px;
+ margin-bottom: 10px;
+ align-items: center;
+}
+
+
+.botones{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+button{
+  background-color: #523605;
+  border: 0;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+  padding: 10px;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 75%;
+}
+
+button:hover{
+  background-color: #886028;
+}
+
+#imprimir{
+  background-color: #fff9ff;
+  border: 0;
+  padding: 12px;
+  margin: 0 auto 10px auto;
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  border-radius: 6px;
+  width: 75%;
+  text-align: left;
+}
+
+#imprimir ul{
+  margin: 0;
+  padding-left: 20px;
+}
+
+#imprimir li{
+  margin: 5px 0;
+}
