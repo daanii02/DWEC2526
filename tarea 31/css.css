@@ -1,28 +1,42 @@
-body {
-    background-image: url("mesa.jpg");
-    background-size: cover;
-    margin: 0;
-    padding: 0;
-  
+body{
+  background-image: url("mesa.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0;
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-
-
-.boton {
-    background-image: url("boton.png");
-    width: 450px;
-    height: 230px;
-    border: none;
-    cursor: pointer;
-    background-size: cover;
-    background-color: rgba(255, 240, 240, 0);
-    margin-left: 490px;
-    margin-top: 250px;
+#padre{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
 }
+
+.boton{
+  background-image: url("boton.png");
+  width: 450px;
+  height: 230px;
+  border: none;
+  cursor: pointer;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-position: center;
+  margin: 0;
+}
+
 .frase{
-    font-family: 'Courier New';
-    font-size: 20px;
-    color: rgb(255, 247, 0);
-    text-align: center;
-    font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  color: rgb(255, 247, 0);
+  text-align: center;
+  font-weight: bold;
+  max-width: 700px;
+  padding: 0 16px;
 }
