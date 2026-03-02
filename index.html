@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Combate </title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+
+    <div class="arena">
+        <div class="personaje" id="heroe">
+            <h2 id="nombreHeroe">Héroe</h2>
+            <img id="imgHeroe" >
+            <div class="botones">
+                <button id="botonBasico">Ataque Básico</button>
+                <button id="botonEspecial">Ataque Especial</button>
+                <button id="botonEsquivar">Esquivar</button>
+            </div>
+        </div>
+
+        <div class="personaje" id="villano">
+            <h2 id="nombreVillano">Villano</h2>
+            <img id="imgVillano" >
+        </div>
+    </div>
+
+    <div class="vidas">
+        Vida Héroe: <div id="vidaHeroe">100</div>
+        Vida Villano: <div id="vidaVillano">100</div>
+    </div>
+
+    <div id="log" class="log">
+        <div class="log-title">Log de combate</div>
+        <div id="logBody" class="log-body"></div>
+    </div>
+
+    <script src="js.js"></script>
+</body>
+</html>

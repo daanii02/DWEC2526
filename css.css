@@ -1,0 +1,199 @@
+* { box-sizing: border-box; }
+
+body{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #0b0f1a;
+  color: rgb(230, 238, 252);
+  background-image: url(fondo_maquina.png);
+  min-height: 100vh;
+  padding: 16px;
+  padding-right: 360px;
+
+}
+
+.barra{
+  padding: 14px 18px;
+  background: #0f1628;
+  border-bottom: 1px solid #26324b;
+}
+
+.titulo{
+  margin: 0 0 10px 0;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.controles{
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+button{
+  padding: 10px 12px;
+  border-radius: 999px;
+  border: 1px solid transparent;
+  color: #e6eefc;
+  cursor: pointer;
+}
+
+#botonBasico{
+  background: #d83a3a;
+}
+
+#botonEspecial{
+  background: #2f9d57;
+}
+
+#botonEsquivar{
+  background: #2a6ee8;
+}
+
+button:disabled{
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.contenedor{
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 18px;
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.carta{
+  flex: 1;
+  min-width: 300px;
+  border: 1px solid #26324b;
+  background: #0f1628;
+  border-radius: 14px;
+  padding: 14px;
+}
+
+.carta h3{
+  margin: 0 0 8px 0;
+  font-size: 18px;
+}
+
+.carta div{
+  margin: 6px 0;
+  opacity: 0.95;
+}
+
+.carta img{
+  margin-top: 10px;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 12px;
+  border: 1px solid #2a3a5f;
+  background: #070a12;
+}
+
+h1{
+  margin: 0 0 8px 0;
+}
+
+.arena{
+  display: flex;
+  gap: 0px;
+  flex-wrap: wrap;
+  margin-top: 190px;
+}
+
+.personaje{
+  flex: 1;
+  min-width: 260px;
+  border: none;
+  background: transparent;
+  border-radius: 14px;
+  padding: 14px;
+  min-height: 220px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#heroe{
+  margin-left: 200px;
+}
+
+.personaje img{
+  width: 100%;
+  max-width: 320px;
+  height: 180px;
+  object-fit: contain;
+  display: block;
+  margin-top: 10px;
+}
+
+.botones{
+  position: fixed;
+  left: 220px;
+  bottom: 16px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 0;
+  z-index: 10;
+  padding:1em;
+  border:solid 3px #cffd04;
+  border-radius: 12px;
+}
+
+.vidas{
+  position: fixed;
+  left: 300px;
+  bottom: 170px;
+  display: flex;
+  gap: 12px;
+  z-index: 9;
+}
+
+.vida-box{
+  background: #0f1628;
+  color: #e6eefc;
+  padding: 8px 12px;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+.log{
+  height: 650px;
+  width: 310px;
+  background: #000000;
+  margin: 0;
+  border-radius: 12px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  position: fixed;
+  top: 16px;
+  right: 16px;
+}
+
+.log-title{
+  font-weight: 700;
+  margin: 0 0 8px 0;
+}
+
+.log-body{
+  flex: 1;
+  overflow-y: auto;
+}
+
+@media (max-width: 900px){
+  .log{
+    position: static;
+    width: 100%;
+    margin: 0 0 16px 0;
+  }
+  body{
+    padding-right: 16px;
+  }
+}
